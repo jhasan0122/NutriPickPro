@@ -15,7 +15,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 import pandas as pd
 import joblib
-BMI_preprocessor = joblib.load('CaloryPredictionModel/BMI_Preprocessor')
+BMI_preprocessor = joblib.load('CaloryPredictionModel/BMR_Preprocessor')
 BMI_predictor = joblib.load('CaloryPredictionModel/BMI_predictor')
 
 BMR_predictor = joblib.load('CaloryPredictionModel/BMR_predictor')
